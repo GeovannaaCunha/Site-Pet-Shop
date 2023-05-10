@@ -57,10 +57,7 @@ nav ul li a:hover{
     background-color: #f0a76785;
     border-radius: 5px;
 }
-.dica h2{
-    font-size: 50px;
-    font-family: 'Darumadrop One', cursive;
-}
+
 section{
     font-family: 'Noto Sans Sharada', sans-serif;
     padding: 15px;
@@ -69,7 +66,10 @@ section{
     background-color: chocolate;
     color: rgb(253, 212, 161);
 }
-
+.dica h2{
+    font-size: 50px;
+    font-family: 'Darumadrop One', cursive;
+}
 .conteudoDica{
     display: inline-block;
     font-size: 20px;
@@ -83,4 +83,57 @@ section{
 .textoDica{
     margin-left: 20px;
     margin-bottom: 14px;
+}
+.promocao{
+    background-color: rgb(253, 212, 161);
+    color: chocolate;
+}
+.promocao h2{
+    font-size: 50px;
+    font-family: 'Darumadrop One', cursive;
+}
+#racaoGato{
+    background-color: chocolate;
+    max-width: 325px;
+    height: 540px;
+    border-radius: 15px;
+    color: bisque;
+
+}
+#imgRacaoGat{
+    border-radius: 10px;
+}
+#racaoGato, #RacaogatoH4, #racaogatoP{
+    padding: 15px;
+    text-align: center;
+}
+#racaoGato b{
+    font-size: 30px;
+}
+#racaoGatoValorAntigo{
+    text-decoration: line-through;
+}
+.button{
+    margin-left: 50px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+.button ul{
+    list-style: none;
+    text-align: center;
+}
+.button ul li a{
+    color: chocolate;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.button ul li a:hover{
+    background-color: #fdede085;
+    border-radius: 10px;
+}
+.comprar{
+    background-color: bisque;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 8px;
 }

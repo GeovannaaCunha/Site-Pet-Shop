@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sharada&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: 	#F4A460;
+    max-width: 1920px;
+    width: 100%;
+    padding: 0.520833333%;
+    height: 140px;
+    text-align: center;
+}
+
+.nomeDoPetShop{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 6em;
+    color: white;
+    text-shadow: 5px 2px 1px rgb(163, 163, 163);
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+.logoTexto{
+    display: inline-flex;
+}
+
+nav{
+    min-height: 40px;
+    background-color: rgb(253, 212, 161);
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    color: chocolate;
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+}
+nav ul li a:hover{
+    background-color: #f0a76785;
+    border-radius: 5px;
+}
+.dica h2{
+    font-size: 50px;
+    font-family: 'Darumadrop One', cursive;
+}
+section{
+    font-family: 'Noto Sans Sharada', sans-serif;
+    padding: 15px;
+}
+.dica{
+    background-color: chocolate;
+    color: rgb(253, 212, 161);
+}
+
+.conteudoDica{
+    display: inline-block;
+    font-size: 20px;
+}
+.imgDica{
+    display: inline-block;
+}
+#dicaImg{
+    border-radius: 10px;
+}
+.textoDica{
+    margin-left: 20px;
+    margin-bottom: 14px;
+}

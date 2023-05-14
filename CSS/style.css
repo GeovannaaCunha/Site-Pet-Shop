@@ -64,7 +64,7 @@ section{
 }
 .dica{
     background-color: chocolate;
-    color: rgb(253, 212, 161);
+    color: bisque;
 }
 .dica h2{
     font-size: 50px;
@@ -87,6 +87,7 @@ section{
 .promocao{
     background-color: rgb(253, 212, 161);
     color: chocolate;
+    height:700px;
 }
 .promocao h2{
     font-size: 50px;
@@ -140,4 +141,66 @@ section{
     font-size: 20px;
     padding: 6px;
     border-radius: 8px;
+}
+#sessao2{
+    background-color: chocolate;
+    color: bisque;
+    height: 675px;
+}
+.itemseçao2{
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: bisque;
+    max-width: 350px;
+    height: 510px;
+    border-radius: 15px;
+    color: chocolate;
+    padding: 13px;
+    text-align: center;
+}
+#imgSeçao2{
+    border-radius: 10px;
+}
+#H2{
+    font-size: 50px;
+    font-family: 'Darumadrop One', cursive;
+}
+.button2{
+    margin-left: 50px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+.button2 ul{
+    list-style: none;
+    text-align: center;
+}
+.button2 ul li a{
+    background-color: chocolate;
+    color: bisque;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.button2 ul li a:hover{
+    background-color: rgba(210, 105, 30, 0.575);
+    border-radius: 10px;
+    color: white;
+}
+.itemseçao2 b{
+    font-size: 1.8em;
+}
+#roupas{
+    font-size: 50px;
+    font-family: 'Darumadrop One', cursive;
+    color: chocolate;
+}
+footer{
+    background-color: rgb(104, 51, 14);
+    color: white;
+    text-align: center;
+    padding: 80px;
+    font-family: 'Noto Sans Sharada', sans-serif;
+}
+.roupas{
+    background-color: bisque;
 }
